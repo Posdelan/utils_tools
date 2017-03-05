@@ -1,16 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-@author:knktc
-@contact:me@knktc.com
-@create:2015-06-30 19:51
-"""
-
-__author__ = 'knktc'
-__version__ = '0.1'
-
-
 import pika
 import pika.credentials
 
