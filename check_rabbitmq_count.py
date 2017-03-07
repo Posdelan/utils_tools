@@ -2,11 +2,6 @@
 # -*- coding: utf-8 -*-
 import requests
 import fnmatch
-"""
-@author:yangzhou
-@contact:@yangzhou@antiy.cn
-@create:2016-05-09 14:03
-"""
 
 __author__ = 'Yangzhou'
 __version__ = '0.1'

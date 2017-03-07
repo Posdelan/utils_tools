@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-@author:yangzhou
-@contact:@yangzhou@antiy.cn
-@create:2016-05-09 14:03
-"""
 
 import socket
 import hmac

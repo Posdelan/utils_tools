@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-@author:knktc
-@contact:me@knktc.com
-@create:2014-02-27 16:51
-"""
 
 import psycopg2
 import psycopg2.extras

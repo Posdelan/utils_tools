@@ -7,7 +7,7 @@
 @create:2015-10-09 15:10
 """
 
-__author__ = 'knktc'
+__author__ = 'yangzhou'
 __version__ = '0.1'
 
 

@@ -3,14 +3,6 @@
 import MySQLdb
 from MySQLdb.cursors import DictCursor
 
-"""
-@author:yangzhou
-@contact:@yangzhou@antiy.cn
-@create:2016-01-12 11:26
-"""
-
-__author__ = 'Yangzhou'
-__version__ = '0.1'
 
 
 class Mysqlclient:

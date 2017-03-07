@@ -3,15 +3,6 @@
 from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
-"""
-@author:yangzhou
-@contact:@yangzhou@antiy.cn
-@create:2016-04-13 16:05
-"""
-
-__author__ = 'Yangzhou'
-__version__ = '0.1'
-
 
 class OpenStackClient:
     def __init__(self, user, password, auth_url, region_name, project_name, auth_version='2.0_password'):

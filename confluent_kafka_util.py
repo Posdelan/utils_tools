@@ -7,14 +7,6 @@ import sys
 import os
 import time
 import pprint
-"""
-@author:yangzhou
-@contact:@yangzhou@antiy.cn
-@create:2017-01-03 11:21
-"""
-
-__author__ = 'yangzhou'
-__version__ = '0.1'
 
 
 class ConfluentKafkaProducerUtil(object):

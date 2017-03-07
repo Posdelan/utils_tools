@@ -5,15 +5,6 @@ import os
 import sys
 import time
 
-"""
-@author:yangzhou
-@contact:@yangzhou@antiy.cn
-@create:2016-06-28 14:24
-"""
-
-__author__ = 'yangzhou'
-__version__ = '0.1'
-
 
 # 创建目录
 log_dir = os.path.join(os.path.join(os.path.dirname(__file__), os.path.pardir), "log")
@@ -73,5 +64,3 @@ logging.config.dictConfig({
         },
     }
 })
-
-
