@@ -7,7 +7,13 @@ import time
 
 
 # 创建目录
+
 log_dir = os.path.join(os.path.join(os.path.dirname(__file__), os.path.pardir), "log")
+
+# try:
+#     log_dir = os.path.join(os.path.dirname(__file__), "log")
+# except:
+#     log_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
 
 if not os.path.isdir(log_dir):
     try:
