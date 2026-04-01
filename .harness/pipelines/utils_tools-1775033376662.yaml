@@ -19,6 +19,22 @@ pipeline:
                   spec:
                     shell: Sh
                     command: echo "Welcome to Harness CI"
+              - step:
+                  type: GitClone
+                  name: GitClone_1
+                  identifier: GitClone_1
+                  spec:
+                    connectorRef: Posdelangithub
+                    repoName: util_tools.git
+                    build:
+                      type: branch
+                      spec:
+                        branch: main
+              - step:
+                  type: Run
+                  name: Run_2
+                  identifier: Run_2
+                  spec: {}
           platform:
             os: Linux
             arch: Amd64
@@ -31,3 +47,9 @@ pipeline:
         connectorRef: Posdelangithub
         repoName: utils_tools
         build: <+input>
+  variables:
+    - name: projectId
+      type: String
+      description: ""
+      required: true
+      value: ""
