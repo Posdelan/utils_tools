@@ -57,12 +57,6 @@ pipeline:
         connectorRef: Posdelangithub
         repoName: utils_tools
         build: <+input>
-  variables:
-    - name: projectId
-      type: String
-      description: ""
-      required: true
-      value: ""
   notificationRules:
     - name: success
       identifier: success
