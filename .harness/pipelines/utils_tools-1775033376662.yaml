@@ -42,7 +42,9 @@ pipeline:
                   type: Run
                   name: Run_2
                   identifier: Run_2
-                  spec: {}
+                  spec:
+                    shell: Sh
+                    command: ls -al
           platform:
             os: Linux
             arch: Amd64
