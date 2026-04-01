@@ -53,3 +53,15 @@ pipeline:
       description: ""
       required: true
       value: ""
+  notificationRules:
+    - name: success
+      identifier: success
+      pipelineEvents:
+        - type: AllEvents
+      notificationMethod:
+        type: Email
+        spec:
+          userGroups: []
+          recipients:
+            - posdelan@gmail.com
+      enabled: true
