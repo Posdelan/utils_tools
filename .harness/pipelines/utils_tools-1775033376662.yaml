@@ -20,6 +20,14 @@ pipeline:
                     shell: Sh
                     command: echo "Welcome to Harness CI"
               - step:
+                  type: Run
+                  name: Show Git Version
+                  identifier: Show_Git_Version
+                  spec:
+                    shell: Sh
+                    command: git --version
+                contextType: Pipeline
+              - step:
                   type: GitClone
                   name: GitClone_1
                   identifier: GitClone_1
